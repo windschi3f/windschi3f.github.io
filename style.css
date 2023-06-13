@@ -1,0 +1,100 @@
+body {
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.87);
+    /*font-family: Arial, sans-serif;*/
+    font-family: 'Consolas', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+p,
+li {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    height: auto;
+}
+
+/*
+.screenshots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.screenshots img {
+    max-width: 300px;
+    margin: 10px;
+}
+*/
+
+.screenshots-container {
+    overflow-x: scroll;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.screenshot {
+    display: inline-block;
+    margin-right: 10px;
+    width: 70%;
+    /* Adjust the width as needed */
+    max-width: 400px;
+    /* Adjust the max-width as needed */
+    vertical-align: top;
+}
+
+.screenshot img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#donate-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
