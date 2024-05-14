@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: rgba(255, 255, 255, 0.87);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 
     margin: 0;
     padding: 0;
@@ -52,21 +52,6 @@ a img {
     height: auto;
 }
 
-/*
-.screenshots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.screenshots img {
-    max-width: 300px;
-    margin: 10px;
-}
-*/
-
 .screenshots-container {
     overflow-x: scroll;
     margin-bottom: 20px;
@@ -77,9 +62,7 @@ a img {
     display: inline-block;
     margin-right: 10px;
     width: 70%;
-    /* Adjust the width as needed */
-    max-width: 400px;
-    /* Adjust the max-width as needed */
+    max-width: 200px;
     vertical-align: top;
 }
 
@@ -120,7 +103,36 @@ footer a:hover {
 footer img {
     display: block;
     margin: 0 auto;
-    max-width: 100px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
+}
+
+.badge-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-container a {
+   margin: 0 20px;
+    border-bottom: none; /* Ensure no underline */
+}
+
+.badge-container a:hover {
+    border-bottom: none; /* Ensure no underline */
+}
+
+.badge-container a img {
+    width: auto;
+    height: 80px;
+}
+
+#apple-batch {
+    height: 55px;
 }
