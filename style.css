@@ -115,13 +115,15 @@ footer img {
 
 .badge-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 .badge-container a {
-   margin: 0 20px;
-    border-bottom: none; /* Ensure no underline */
+    border-bottom: none;
 }
 
 .badge-container a:hover {
@@ -130,9 +132,5 @@ footer img {
 
 .badge-container a img {
     width: auto;
-    height: 80px;
-}
-
-#apple-batch {
-    height: 55px;
+    height: 50px;
 }
